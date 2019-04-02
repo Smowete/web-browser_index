@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: lightgray;
+	text-align: center;
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+a {
+	display: inherit;
+	color: inherit;
+	text-decoration: inherit;
+}
+
+
+
+
+#main {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+
+.row {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.page {
+	background-color: #BBBBBB;
+	boder: 10px gray solid;
+	border-radius: 10px;
+	height: 170px;
+	width: 200px;
+	opacity: 0.75;
+}
+
+.page:hover {
+	opacity: 1.0;
+	cursor: pointer;
+	border: 1px white solid;
+}
+
+.title {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.div-title {
+	height: 30px;
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.div-img {
+	height: 120px;
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*
+#youtube {
+	background-color: #c4302b;
+}
+
+#facebook {
+	background-color: #3B5998;
+}
+
+#amazon {
+	background-color: #ff9900;
+}
+#bilibili {
+	background-color: #f25d8e;
+}
+#mail163 {
+	background-color: #c40909;
+}
+#mail126 {
+	background-color: #108720;
+}
+#baidu {
+	background-color: #2319DC;
+}
+#google {
+	background-color: #ffa700;
+}
+
+#uwhome {
+	background-color: #4b2e83;
+}
+#uwcanvas {
+	background-color: #85754d;
+}
+#uwcatalyst {
+	background-color: #6500a5;
+}
+#uwmyplan {
+	background-color: #b7a57a;
+}
+*/
